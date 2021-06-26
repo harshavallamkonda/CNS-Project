@@ -20,44 +20,35 @@ nav
    width:100%; height:15vh;
    font: 'Gothaic A1';
    /*background  :  rgba(0,0,0,0.2 );*/
-  /* position: absolute;*/
+  position: absolute;
    color:white;
      display:flex;
      justify-content:space-between;
      align-items: center;
       text-transform:uppercase;
-    text-decoration: underline 0.15em rgb(35, 124, 197);
+    /* text-decoration: underline 0.15em rgb(35, 124, 197); */
    text-underline-offset: 0.5em;
    transition: text-decoration-color 300ms, text-underline-offset 300ms;
 }
-section :hover .nav{
-  text-decoration-color: rgb(182, 4, 28);
+nav .menu :hover{
+   text-decoration: underline 0.15em rgb(255, 255, 255);
+   text-underline-offset: 0.5em;
+   transition: text-decoration-color 300ms, text-underline-offset 300ms;
+   transition: all 0.3s ease-in-out;
   text-underline-offset: 0.4em;
-
 }
 li .nav{
   display: inline;
 }
 
-nav .logo
-{
-   
-   width: 81px;
-  height: 76px;
-  left: -403px;
-  top: 24px;
-  right: 200px;
-   text-align:justify;
-   background: url('logo.png');
-   mix-blend-mode: normal;
-  
 
-}
 nav .menu
 {
+  text-align: justify;
   width:40%;
-  display:flex; 
-   justify-content: space-around ;
+  display:flex;
+  
+  
 
 }
 
@@ -67,6 +58,11 @@ nav .menu a
      text-decoration:none;
      color:white; 
      font-weight:bold; 
+     text-align: center;
+     justify-content: space-evenly; 
+}
+.navtext{
+  justify-content: space-between;
 }
 main{
   width:100%; 
@@ -130,4 +126,30 @@ section:hover .btntwo{
 nav.menu a:first-child
 {
         color:#24c9a8;
+}
+
+
+ .mainLogo {
+   margin-top: 20%;
+  padding-left: 30px;
+  display: table;
+  width: 100%;
+  
+}
+
+.green{
+  color: greenyellow;
+}
+
+.mainLogo {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.logotext::after {
+  content: "";
+  clear: both;
+  display: table;
 }
