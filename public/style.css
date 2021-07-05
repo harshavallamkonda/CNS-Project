@@ -77,60 +77,40 @@ main{
   text-align: center;
   color:#17CF4B;
 }
-section h3
+h3
 {
   font-size:30px; font-weight: bold ;
-  font-family: 'Gothaic A1';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #ffffff;
 }
-section h1
+h1
 {
   
  margin:  30px 0 20px 0;
  font-size:35px;
  letter-spacing: 2PX;
+ font-family: 'Poppins', sans-serif;
  font-weight: bold;
  text-shadow: 2px 1px 5px black;
  text-transform: uppercase;
 }
-section p
+p
 {
    font-size: 25px;
     word-spacing:2px;
     margin-bottom:25px;
     text-shadow:1px 1px 1px black;
 }
-section a
-{
-  padding:12px 30px;
-  border-radius:4px;
-  outline:none;
-  text-transform:uppercase;
-  font-size:13px;
-  font-weight:500;
-  text-decoration:none;
-  letter-spacing: 1px;
-}
-section .btntwo
-{
-  background:linear-gradient(180deg, #483A65 0%, #3312FF 99.97%, rgba(44, 51, 217, 0) 99.98%);
-  color: white  ;
-  border-radius:100px ;
 
-}
-section:hover .btntwo{
-  text-decoration-color: rgb(182, 4, 28);
-  text-underline-offset: 0.4em;
-}
 nav.menu a:first-child
 {
         color:#24c9a8;
 }
 
-
  .mainLogo {
    margin-top: 20%;
+   margin-left: 20%;
   padding-left: 30px;
   display: table;
   width: 100%;
@@ -139,6 +119,13 @@ nav.menu a:first-child
 
 .green{
   color: greenyellow;
+}
+
+.logotext{
+  margin-top: 30%;
+  padding-top: 20px;
+  margin-left: 0%;
+  padding-left: 10;
 }
 
 .mainLogo {
@@ -152,4 +139,52 @@ nav.menu a:first-child
   content: "";
   clear: both;
   display: table;
+}
+
+.packages{
+  
+  padding: 12px;
+  background-color: #3312FF;
+  border-radius: 100px;
+  font-size: 30px;
+  color: white;
+}
+
+.gotoencrypt{
+
+  padding: 12px;
+  background-color: #3312FF;
+  border-radius: 100px;
+  font-size: 30px;
+  color: white;
+  
+}
+.mainLogo{
+  padding-top: 5%;
+}
+
+.encryptbtn{
+  padding: 10%;
+}
+
+.packagebtn{
+  z-index: inherit;
+}
+
+.encryptscreen{
+  background-image: url("bg1.png");
+}
+
+.gotohome{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.enc{
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logotext{
+  font-family: 'Poppins', sans-serif;
 }
