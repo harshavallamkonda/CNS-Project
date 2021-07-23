@@ -8,7 +8,7 @@
 }
 
 .navbar-brand{
-  padding: 2%;
+  padding: 1%;
 }
 
 .navbar-text{
@@ -66,4 +66,29 @@ body{
 }
 .card:hover{
   transform: scale(1.1);
+}
+
+.rd{
+  color: rgba(243, 218, 74, 0.774);
+}
+
+.re{
+  color: rgb(255, 31, 23);
+}
+.ed{
+  color: rgb(255, 31, 23);
+}
+
+footer{
+  bottom: -10px;
+  position:absolute;
+  left: 45%;
+}
+.footer h4{
+  font-family: 'Poppins',sans-serif;
+  color: white;
+}
+.npm{
+  position: relative;
+  left: 40%;
 }
