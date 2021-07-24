@@ -17,7 +17,7 @@
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   font-size:40px ;
-  color:rgb(185, 217, 230);
+  color:rgb(222, 244, 253);
 }
 .gr{
   color: rgb(130, 197, 5);
@@ -85,10 +85,49 @@ footer{
   left: 45%;
 }
 .footer h4{
+  padding-bottom: 5px;
   font-family: 'Poppins',sans-serif;
   color: white;
 }
 .npm{
+  padding-bottom: 20px;
   position: relative;
   left: 40%;
+}
+
+.madewith h4{
+  padding-bottom: 20px;
+  font-family: 'Poppins',sans-serif;
+  color: white;
+}
+
+.about{
+  align-self: center;
+  padding:  20px 20px 20px 20px;
+  border-radius: 40px;
+  width: 400px;
+  height: 400px;
+}
+
+.name {
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+}
+.position{
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+  font-size: larger;
+}
+
+.harsha{
+  align-self: center;
+  padding:  20px 20px 20px 20px;
+  border-radius: 40px;
+  width: 400px;
+  height: 400px;
+}
+
+.name-harsha{
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
 }
